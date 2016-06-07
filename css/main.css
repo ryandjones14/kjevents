@@ -132,13 +132,13 @@ body{
     content: "NEXT";
 }
 .greeting{
-  height: 250px;
+  height: 450px;
   text-align: center;
   position: relative;
 }
   .tagline{
     position: relative;
-    top: 15%;
+    top: 5%;
   }
     .tagline h2{
       font-size: 36px;
