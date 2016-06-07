@@ -1,6 +1,19 @@
+@font-face {
+  src:
+    local('Bakery'),
+    url('fonts/bakery.otf')
+    format('opentype');
+  src:
+    local('Bakery'),
+    url('fonts/bakery.ttf')
+    format('truetype');
+}
 body{
   color: #4d4d4d;
   font-family: 'Abel', sans-serif;
+}
+h1, h2{
+  font-family: 'Bakery', sans-serif;
 }
 .header{
   width: 100vw;
@@ -53,7 +66,7 @@ body{
 }
   .header__main h1{
     color: inherit;
-    font-size: 48px;
+    font-size: 60px;
   }
   .header__main a{
     color: inherit;
@@ -141,7 +154,7 @@ body{
     top: 5%;
   }
     .tagline h2{
-      font-size: 36px;
+      font-size: 42px;
     }
   .copy{
     position: relative;

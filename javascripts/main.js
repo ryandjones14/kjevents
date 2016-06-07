@@ -2,7 +2,7 @@ $(function(){
   $('.variable-width').slick({
     dots: false,
     infinite: true,
-    speed: 300,
+    speed: 1000,
     slidesToShow: 1,
     centerMode: true,
     variableWidth: true,
