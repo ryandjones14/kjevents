@@ -83,9 +83,53 @@ body{
 .carousel-control a{
   background: none;
 }*/
-img{
+.carousel img{
   height: 400px;
   margin: 10px 5px;
+}
+.slick-prev, .slick-next{
+  font-size: 0;
+  line-height: 0;
+  position: relative;
+  display: block;
+  height: 30px;
+  margin-top: -10px;
+  padding: 0;
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: rgba(169, 224, 236, 0.5);
+  border-radius: 1px;
+}
+.carousel button:hover{
+  background: rgba(169, 224, 236, 0.9);
+}
+.slick-prev{
+  top: 225px;
+  left: 1%;
+  z-index: 1;
+  width: 80px;
+}
+.slick-next{
+  bottom: 205px;
+  left: 94%;
+  z-index: 1;
+  width: 50px;
+}
+.slick-prev:before, .slick-next:before {
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-prev::before {
+    content: "PREVIOUS";
+}
+.slick-next::before {
+    content: "NEXT";
 }
 .greeting{
   height: 250px;
