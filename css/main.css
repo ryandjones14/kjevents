@@ -1,0 +1,85 @@
+.body{
+  color: #4d4d4d;
+}
+.header{
+  width: 100vw;
+  height: 25vh;
+  position: fixed;
+}
+.header__top{
+  height: 10%;
+  width: 100vw;
+  background-color: #97B9E2;
+  text-align: center;
+  position: relative;
+}
+  .header__top div{
+    display: inline-block;
+    width: 30vw;
+    height: 100%;
+    text-align: center;
+  }
+  .header__top a{
+    color: white;
+  }
+  .header__top a:hover{
+    text-decoration: underline;
+  }
+  .header__top a:visited{
+    color: white;
+  }
+    .sm-icons{
+      position: absolute;
+      left: 0px;
+    }
+      .header__top ul{
+        list-style: none;
+        padding: 0;
+      }
+        .header__top li{
+          display: inline;
+          margin: 0 10px;
+        }
+    .call-to-action{
+      position: absolute;
+      right: 0;
+    }
+.header__main{
+  width: 100vw;
+  height: 90%;
+  position: relative;
+}
+  .header__main h1{
+    color: #4d4d4d;
+  }
+  .header__main a{
+    color: #4d4d4d;
+  }
+  .title{
+    text-align: center;
+  }
+  .navbar{
+    text-align: center;
+    position: relative;
+    top: 15%;
+  }
+    .navbar ul{
+      list-style: none;
+      padding: 0;
+    }
+      .navbar li{
+        display: inline-block;
+        margin: 0 30px;
+        text-transform: uppercase;
+      }
+
+.image-carousel{
+  height: 450px;
+  width: 100vw;
+  background-color: #a7b3d9;
+}
+.footer{
+  width: 100vw;
+  height: 60px;
+  background-color: #c33993;
+}
