@@ -76,12 +76,16 @@ body{
         text-transform: uppercase;
         font-size: 18px;
       }
-.carousel .item img{
+/*.carousel .item img{
   margin: auto;
   height: 400px;
 }
 .carousel-control a{
   background: none;
+}*/
+img{
+  height: 400px;
+  margin: 10px 5px;
 }
 .greeting{
   height: 250px;
