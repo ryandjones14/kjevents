@@ -1,13 +1,14 @@
-.body{
+body{
   color: #4d4d4d;
+  font-family: 'Abel', sans-serif;
 }
 .header{
   width: 100vw;
-  height: 25vh;
-  position: fixed;
+  height: 160px;
+  /*position: fixed;*/
 }
 .header__top{
-  height: 10%;
+  height: 20px;
   width: 100vw;
   background-color: #97B9E2;
   text-align: center;
@@ -46,14 +47,15 @@
     }
 .header__main{
   width: 100vw;
-  height: 90%;
+  height: 140px;
   position: relative;
+  background-color: #fff;
 }
   .header__main h1{
-    color: #4d4d4d;
+    color: inherit;
   }
   .header__main a{
-    color: #4d4d4d;
+    color: inherit;
   }
   .title{
     text-align: center;
@@ -72,12 +74,15 @@
         margin: 0 30px;
         text-transform: uppercase;
       }
-
+/*
 .image-carousel{
   height: 450px;
   width: 100vw;
-  background-color: #a7b3d9;
-}
+}*/
+  .carousel .item img{
+    margin: auto;
+    height: 400px;
+  }
 .footer{
   width: 100vw;
   height: 60px;
