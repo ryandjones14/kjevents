@@ -1,0 +1,18 @@
+.services{
+  text-align: center;
+  position: relative;
+}
+.service{
+  display: inline-block;
+  margin: 0 10px;
+  padding: 15px 0 0 0;
+  position: relative;
+}
+.service img{
+  height: 250px;
+}
+.text{
+  position: relative;
+  top: -80px;
+  color: #f3eae2;
+}

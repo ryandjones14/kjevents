@@ -1,4 +1,6 @@
 $(function(){
+
+  // Scroll images
   $('.variable-width').slick({
     dots: false,
     infinite: true,
@@ -8,5 +10,15 @@ $(function(){
     variableWidth: true,
     autoplay: true,
     autoplaySpeed: 5000
+  });
+
+  // Minimize header
+  $(window).scroll( function() {
+      var value = $(this).scrollTop();
+      if ( value > 100 ) {
+        $('.header').addClass('header2');
+      } else {
+        $('.header').removeClass('header2');
+      }
   });
 })
