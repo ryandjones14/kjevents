@@ -15,7 +15,7 @@ $(function(){
   // Minimize header
   $(window).scroll( function() {
       var value = $(this).scrollTop();
-      if ( value > 100 ) {
+      if ( value > 800 ) {
         $('.header').addClass('header2');
         $('.services').addClass('services2');
         $('.wrapper').addClass('wrapper2');
