@@ -1,0 +1,23 @@
+body{
+  padding-bottom: 300px;
+}
+.about{
+  text-align: center;
+  position: relative;
+}
+.wrapper2{
+  position: relative;
+  top: 175px;
+}
+.image{
+  margin-bottom: 35px;
+}
+img{
+  height: 350px;
+}
+.text{
+  width: 65vw;
+  margin: 0 auto;
+  font-size: 24px;
+}
+
