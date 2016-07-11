@@ -25,5 +25,9 @@ img{
   display: inline-block;
   width: 50%;
   float: right;
-  text-align: center;
+  text-align: left;
+}
+.text h2{
+  position: relative;
+  left: 50px;
 }

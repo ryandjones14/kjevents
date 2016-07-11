@@ -106,6 +106,7 @@ h1, h2{
   height: 100px;
   z-index: 2;
   margin-bottom: 100px;
+  border-bottom: 1px solid #4d4d4d;
 }
   .header2 .header__top{
     display: none;
@@ -205,4 +206,28 @@ h1, h2{
   height: 80px;
   background-color: #fff;
   border-top: 1px solid #4d4d4d;
+  text-align: center;
+}
+.footer__wrapper{
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer__wrapper li{
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px 25px;
+  padding: 0 25px;
+}
+.footer__email{
+  border-right: 1px solid #4d4d4d;
+  border-left: 1px solid #4d4d4d;
+}
+.footer__social ul{
+  padding: 0;
+}
+.footer a{
+  color: #4d4d4d;
+  text-decoration: italic;
 }
