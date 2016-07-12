@@ -193,12 +193,16 @@ h1, h2{
 @media (max-width: 864px){
   .header2 h1{
     font-size: 40px;
+    position: relative;
+    bottom: 10px;
   }
   .header2 .navbar{
     width: 50vw;
   }
   .header2 li{
     font-size: 12px;
+    width: 25%;
+    margin-bottom: 15px;
   }
   .footer li{
     display: block;
