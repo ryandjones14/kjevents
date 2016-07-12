@@ -125,11 +125,13 @@ h1, h2{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.slick-prev::before {
-    content: "<";
+.slick-prev:before {
+  font-family: "FontAwesome";
+  content: "\f104";
 }
-.slick-next::before {
-    content: ">";
+.slick-next:before {
+  font-family: "FontAwesome";
+  content: "\f105";
 }
 .main{
   height: 450px;
