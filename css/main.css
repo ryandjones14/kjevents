@@ -173,12 +173,20 @@ h1, h2{
   padding: 0 25px;
   width: 20vw;
 }
+.footer__wrapper li p{
+  margin: 0;
+}
 .footer__email{
   border-right: 1px solid #4d4d4d;
   border-left: 1px solid #4d4d4d;
 }
 .footer__social ul{
   padding: 0;
+  width: 100%;
+}
+.footer__social li{
+  width: 40%;
+  margin: 0 auto;
 }
 .footer a{
   color: #4d4d4d;
