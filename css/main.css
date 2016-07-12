@@ -24,7 +24,7 @@ h1, h2{
 }
 .header{
   width: 100vw;
-  height: 160px;
+  height: 100px;
   /*position: fixed;*/
 }
 .header__main{
@@ -36,7 +36,7 @@ h1, h2{
   .header__main h1{
     color: inherit;
     font-size: 60px;
-    margin-top: 0;
+    margin-top: 30px;
   }
   .header__main a{
     color: inherit;
@@ -84,9 +84,12 @@ h1, h2{
     position: relative;
     top: 0;
   }
+  .header2 h1{
+    margin-top: 0;
+  }
 .wrapper2{
   position: relative;
-  top: 160px;
+  top: 130px;
 }
 .carousel img{
   height: 400px;

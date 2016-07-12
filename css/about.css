@@ -4,10 +4,11 @@ body{
 .about{
   text-align: center;
   position: relative;
+  margin-top: 60px;
 }
 .wrapper2{
   position: relative;
-  top: 175px;
+  top: 130px;
 }
 .image{
   margin-bottom: 35px;

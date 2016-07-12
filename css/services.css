@@ -4,10 +4,11 @@ body{
 .services{
   text-align: center;
   position: relative;
+  margin-top: 60px;
 }
   .services2{
     position: relative;
-    top: 180px;
+    top: 130px;
   }
 .service{
   margin: 20px auto;
