@@ -24,7 +24,7 @@ h1, h2{
 }
 .header{
   width: 100vw;
-  height: 100px;
+  height: 150px;
   /*position: fixed;*/
 }
 .header__main{
@@ -89,7 +89,7 @@ h1, h2{
   }
 .wrapper2{
   position: relative;
-  top: 130px;
+  top: 180px;
 }
 .carousel img{
   height: 400px;
