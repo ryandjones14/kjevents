@@ -12,13 +12,17 @@ body{
 }
 .image{
   margin-bottom: 35px;
+  display: inline-block;
 }
 img{
   height: 350px;
+  vertical-align: inherit;
 }
 .text{
-  width: 65vw;
-  margin: 0 auto;
+  width: 45vw;
   font-size: 24px;
+  display: inline-block;
+  margin-left: 100px;
+  vertical-align: top;
 }
 

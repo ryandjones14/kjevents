@@ -11,13 +11,13 @@ body{
     top: 180px;
   }
 .service{
-  margin: 20px auto;
+  margin: 50px auto;
   position: relative;
   width: 85%;
   text-align: left;
 }
 img{
-  height: 325px;
+  width: 488px;
 }
 .service .image{
   display: inline-block;
