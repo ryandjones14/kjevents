@@ -183,8 +183,36 @@ h1, h2{
   color: #4d4d4d;
   text-decoration: italic;
 }
+
+/*Mobile Styling*/
 @media (max-width: 1037px){
   .header2 h1{
     font-size: 50px;
+  }
+}
+@media (max-width: 864px){
+  .header2 h1{
+    font-size: 40px;
+  }
+  .header2 .navbar{
+    width: 50vw;
+  }
+  .header2 li{
+    font-size: 12px;
+  }
+  .footer li{
+    display: block;
+    width: 40vw;
+    margin: 10px auto;
+  }
+  .footer .footer__email{
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #4d4d4d;
+    border-bottom: 1px solid #4d4d4d;
+  }
+  .footer__social li{
+    display: inline-block;
+    width: 40%;
   }
 }
