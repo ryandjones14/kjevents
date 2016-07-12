@@ -36,9 +36,12 @@ img{
   font-size: 22px;
   border-bottom: 1px solid #4d4d4d;
 }
+
+/* ----- Mobile Styling ------ */
+
 @media (max-width: 1037px){
   .services{
-    width: 60vw;
+    width: 75vw;
     margin: 0 auto;
   }
   .service{
@@ -49,6 +52,9 @@ img{
   }
 }
 @media (max-width: 864px){
+  body{
+    padding-bottom: 440px;
+  }
   .services{
     text-align: center;
   }
@@ -65,8 +71,14 @@ img{
     margin: 0 auto;
     text-align: justify;
     margin-bottom: 70px;
+    font-size: 18px;
   }
   .text h2{
     text-align: center;
+  }
+}
+@media (max-width: 691px){
+  .services{
+    width: 90vw;
   }
 }

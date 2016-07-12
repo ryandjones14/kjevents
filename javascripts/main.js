@@ -15,7 +15,7 @@ $(function(){
   // Minimize header
   $(window).scroll( function() {
       var value = $(this).scrollTop();
-      if ( value > 800 ) {
+      if ( value > 1100 ) {
         $('.header').addClass('header2');
         $('.wrapper').addClass('wrapper2');
       } else {

@@ -184,13 +184,20 @@ h1, h2{
   text-decoration: italic;
 }
 
-/*Mobile Styling*/
+      /* ----- Mobile Styling ------ */
+
 @media (max-width: 1037px){
   .header2 h1{
     font-size: 50px;
   }
+  .slick-next, .slick-prev{
+    display: none !important;
+  }
 }
 @media (max-width: 864px){
+  body{
+    padding-bottom: 440px;
+  }
   .header2 h1{
     font-size: 40px;
     position: relative;
@@ -203,6 +210,9 @@ h1, h2{
     font-size: 12px;
     width: 25%;
     margin-bottom: 15px;
+  }
+  .footer{
+    height: 269px;
   }
   .footer li{
     display: block;
@@ -219,10 +229,53 @@ h1, h2{
     display: inline-block;
     width: 40%;
   }
+  .main .copy{
+    font-size: 18px;
+  }
+}
+@media(max-width: 780px){
+  .header2{
+    display: none;
+  }
 }
 @media (max-width: 691px){
-  .header2 li{
+/*  .header2 li{
     position: relative;
     bottom: 20px;
+  }*/
+  .tagline h2{
+    font-size: 34px;
+  }
+}
+@media (max-width: 496px){
+  .footer li{
+    width: 70vw;
+  }
+  .footer__social li{
+    display: inline-block;
+    width: 40%;
+  }
+}
+@media (max-width: 467px){
+  .header__main h1{
+    font-size: 52px;
+  }
+  .navbar ul{
+    position: relative;
+    right: 8px;
+  }
+  .navbar li{
+    margin: 0 auto;
+    width: 22vw;
+  }
+}
+@media (max-width: 415px){
+  .header__main h1{
+    font-size: 42px;
+  }
+}
+@media (max-width: 375px){
+  body{
+    padding-bottom: 600px;
   }
 }

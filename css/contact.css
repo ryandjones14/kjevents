@@ -1,5 +1,5 @@
 body{
-  padding-bottom: 300px;
+  padding-bottom: 345px;
 }
 .form{
   text-align: center;
@@ -17,4 +17,9 @@ body{
 #form1 ul{
   width: 70%;
   margin: 0 auto;
+}
+@media (max-width: 375px){
+  body{
+    padding-bottom: 480px;
+  }
 }
