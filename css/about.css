@@ -1,5 +1,5 @@
 body{
-  padding-bottom: 300px;
+  padding-bottom: 400px;
 }
 .about{
   text-align: center;
@@ -25,9 +25,15 @@ img{
   margin-left: 100px;
   vertical-align: top;
 }
+@media (max-width: 1142px){
+  .about .text{
+    margin: 0 auto;
+    text-align: justify;
+  }
+}
 @media (max-width: 864px){
   body{
-    padding-bottom: 440px;
+    padding-bottom: 480px;
   }
   .image, .text{
     display: block;
