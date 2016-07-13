@@ -24,6 +24,7 @@ img{
   display: inline-block;
   margin-left: 100px;
   vertical-align: top;
+  text-align: left;
 }
 @media (max-width: 1142px){
   .about .text{

@@ -209,6 +209,9 @@ h1{
       /* ----- Mobile Styling ------ */
 
 @media (max-width: 1037px){
+  body{
+    padding-bottom: 250px;
+  }
   .header2 h1{
     font-size: 50px;
   }
@@ -261,10 +264,9 @@ h1{
   }
 }
 @media (max-width: 691px){
-/*  .header2 li{
-    position: relative;
-    bottom: 20px;
-  }*/
+  .landing-image{
+    display: none;
+  }
   .tagline h2{
     font-size: 34px;
   }
