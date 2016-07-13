@@ -39,30 +39,24 @@ img{
 
 /* ----- Mobile Styling ------ */
 
-@media (max-width: 1037px){
+@media (max-width: 1148px){
+  body{
+    padding-bottom: 440px;
+  }
   .services{
     width: 75vw;
     margin: 0 auto;
+    text-align: center;
   }
   .service{
     width: 95%;
   }
   .service img{
-    width: 388px;
-  }
-}
-@media (max-width: 864px){
-  body{
-    padding-bottom: 440px;
-  }
-  .services{
-    text-align: center;
-  }
-  .service img{
-    width: 100%;
+    width: 90%;
   }
   .service .image{
     display: block;
+    text-align: center;
   }
   .service .text{
     display: block;

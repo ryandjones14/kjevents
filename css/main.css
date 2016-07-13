@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'nickainley-normal';
+  src: url('../fonts/Nickainley-Normal.otf');
+}
 .landing-image{
   background: url('../images/landing.jpg') fixed center bottom;
   background-size: cover;
@@ -9,8 +13,8 @@ body{
   position: relative;
   padding-bottom: 160px;
 }
-h1, h2{
-  font-family: 'Cedarville Cursive', cursive;
+h1{
+  font-family: 'Nickainley-Normal', cursive;
 }
 .header{
   width: 100vw;
