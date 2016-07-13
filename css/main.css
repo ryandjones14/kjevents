@@ -198,12 +198,14 @@ h1{
   color: #4d4d4d;
   text-decoration: italic;
 }
-.ryan{
+.credit{
   color: #8d8d8d;
-  margin-top: 14px;
+  margin: 14px 10px 0 10px;
+  display: inline-block;
 }
-.ryan a{
+.credit a{
   color: inherit;
+  text-decoration: underline;
 }
 
       /* ----- Mobile Styling ------ */
@@ -253,6 +255,9 @@ h1{
   .footer__social li{
     display: inline-block;
     width: 40%;
+  }
+  .footer .credit{
+    display: block;
   }
   .main .copy{
     font-size: 18px;
