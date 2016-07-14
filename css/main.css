@@ -67,6 +67,8 @@ h1{
   height: 100px;
   position: absolute;
   padding-top: 15px;
+  background-color: rgba(256,256,256,.95);
+  border-bottom: 1px solid #d9d9d9;
 }
 .header2 .title{
   width: 45vw;
